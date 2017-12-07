@@ -131,14 +131,23 @@ h3 {
 }
 #navigation li {
   float: left;
-  width: 33.3333333333%;
+  width: 25%;
+  text-align: center;
+}
+#navigation p {
+  width: 100%;
+  display: block;
+  padding-top: 0.611em; /* 11 / 18 = 0.611 */
+  padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
+  background-color: black;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
 }
 #navigation a {
   display: block;
   width: 100%;
   padding-top: 0.611em; /* 11 / 18 = 0.611 */
   padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
-  text-align: center;
   text-decoration: none;
   color: white;
   background-color: darkgreen;
