@@ -1,0 +1,156 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* stylelint-disable*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-enable */
+
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Forms
+   ========================================================================== */
+
+/* Begin site styles below */
+
+/* Base */
+
+/*
+
+  Using an 18/22 base typographic setting, according to a 4:3 modular scale
+
+  http://www.modularscale.com/?18&px&1.333
+
+*/
+
+html {
+  font-size: 1.125em; /* 18 / 16 = 1.125 */
+  line-height: 1.222em; /* 22 / 18 = 1.222 */
+  text-rendering: optimizeLegibility;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+  padding-top: 3.667em; /* 66 / 18 = 3.667... */
+  padding-right: 1.222em; /* 22 / 18 = 1.2222222222 */
+  padding-left: 1.222em; /* 22 / 18 = 1.2222222222 */
+  background-color: honeydew;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.2em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+h4 {
+    display: block;
+    font-size: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+video,
+img{
+  max-width:100%;
+  height:auto;
+  margin-right: 2em;
+}
+footer{
+  margin-top: 15px;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-align: center;
+}
+main ul {
+    display: block;
+    list-style-type: disc;
+    padding-left: 40px;
+}
+h2,
+h3 {
+  display: block;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  background-color: lightgreen;
+}
+#self-pic {
+  padding-left: 1em;
+  padding-right: 1em;
+  max-width: 100%;
+}
+#iitlogo,
+#swulogo{
+  max-height: 5em;
+}
+#navigation {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-size: 1.3em;
+  font-family: 'Vollkorn', serif;
+}
+#navigation li {
+  float: left;
+  width: 33.3333333333%;
+}
+#navigation a {
+  display: block;
+  width: 100%;
+  padding-top: 0.611em; /* 11 / 18 = 0.611 */
+  padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: darkgreen;
+}
+#navigation ul,
+#navigation li {
+  list-style-type: none;
+  padding-bottom: 0;
+}
+/*
+@media screen and (min-width: 375px){
+  body{
+    padding-right: 5.866666667em;
+    padding-left: 5.866666667em;
+  }
+}
+*/
+#content {
+  display: grid;
+  grid-template-columns: 33% 67%;
+}
+#content-list {
+  display: grid;
+  grid-template-columns: 35% 37% 28%;
+}
