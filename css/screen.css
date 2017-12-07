@@ -108,10 +108,11 @@ h3 {
 #self-pic {
   padding-left: 1em;
   padding-right: 1em;
-  max-width: 100%;
+  max-width: 480px;
   float: left;
 }
 #self-int {
+  max-width: 500px;
   float: left;
 }
 #iitlogo,
