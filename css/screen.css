@@ -102,10 +102,16 @@ h3 {
   padding-bottom: 0.2em;
   background-color: lightgreen;
 }
+#content {
+}
 #self-pic {
   padding-left: 1em;
   padding-right: 1em;
   max-width: 100%;
+  float: left;
+}
+#self-int {
+  float: left;
 }
 #iitlogo,
 #swulogo{
