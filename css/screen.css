@@ -190,4 +190,8 @@ main#travel-list ul {
   html {
     font-size: 1.25em; /* 20/16 = 1.25em */
   }
+  #country-list {
+    display: grid;
+    grid-template-columns: 100%;
+  }
 }
