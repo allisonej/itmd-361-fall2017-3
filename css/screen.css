@@ -89,7 +89,7 @@ footer {
   font-size: 0.9em;
   font-weight: bold;
   text-align: center;
-  bottom: 0;
+  margin-bottom: 1em;
   width: 100%;
 }
 h2,
