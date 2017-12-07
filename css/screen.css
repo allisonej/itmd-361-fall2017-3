@@ -156,6 +156,9 @@ main#travel-list ul {
     list-style-type: disc;
     padding-left: 40px;
 }
+#travel-map {
+  max-width: 760px;
+}
 #coutry-list {
   display: grid;
   grid-template-columns: 35% 37% 28%;
@@ -166,11 +169,17 @@ main#travel-list ul {
     padding-right: 11.7333333%; /* 44/375 = 11.73333333% */
     padding-left: 11.7333333%;
   }
+  #country-list {
+    grid-auto-columns: 100%;
+  }
 }
 
 @media screen and (min-width: 430px){
   body{
     padding-top: 3.667em; /* 66/18 = 3.667... */
+  }
+  #country-list {
+    grid-auto-columns: 100%;
   }
 }
 
