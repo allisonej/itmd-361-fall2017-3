@@ -119,6 +119,7 @@ h3 {
 #iitlogo,
 #swulogo{
   max-height: 5em;
+  display: block;
 }
 #navigation {
   position: absolute;
