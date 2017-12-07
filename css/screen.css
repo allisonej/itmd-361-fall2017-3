@@ -171,7 +171,8 @@ main#travel-list ul {
     padding-left: 11.7333333%;
   }
   #country-list {
-    grid-auto-columns: 100%;
+    display: grid;
+    grid-template-columns: 100%;
   }
 }
 
@@ -180,7 +181,8 @@ main#travel-list ul {
     padding-top: 3.667em; /* 66/18 = 3.667... */
   }
   #country-list {
-    grid-auto-columns: 100%;
+    display: grid;
+    grid-template-columns: 100%;
   }
 }
 
