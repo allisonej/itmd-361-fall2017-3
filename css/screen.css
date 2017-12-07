@@ -102,6 +102,7 @@ h3 {
   padding-bottom: 0.2em;
   background-color: lightgreen;
 }
+
 #content {
 }
 #self-pic {
@@ -144,18 +145,26 @@ h3 {
   list-style-type: none;
   padding-bottom: 0;
 }
-#content {
-  display: grid;
-  grid-template-columns: 33% 67%;
-}
 #content-list {
   display: grid;
   grid-template-columns: 35% 37% 28%;
 }
 
 @media screen and (min-width: 375px){
+  body{
+    padding-right: 11.7333333%; /* 44/375 = 11.73333333% */
+    padding-left: 11.7333333%;
+  }
 }
+
 @media screen and (min-width: 430px){
+  body{
+    padding-top: 3.667em; /* 66/18 = 3.667... */
+  }
 }
+
 @media screen and (min-width: 640px){
+  html {
+    font-size: 1.25em; /* 20/16 = 1.25em */
+  }
 }
