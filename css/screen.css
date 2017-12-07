@@ -138,14 +138,6 @@ h3 {
   list-style-type: none;
   padding-bottom: 0;
 }
-/*
-@media screen and (min-width: 375px){
-  body{
-    padding-right: 5.866666667em;
-    padding-left: 5.866666667em;
-  }
-}
-*/
 #content {
   display: grid;
   grid-template-columns: 33% 67%;
@@ -153,4 +145,11 @@ h3 {
 #content-list {
   display: grid;
   grid-template-columns: 35% 37% 28%;
+}
+
+@media screen and (min-width: 375px){
+}
+@media screen and (min-width: 430px){
+}
+@media screen and (min-width: 640px){
 }
