@@ -172,8 +172,8 @@ main#travel-list ul {
 }
 #slider {
 	position:relative;
-	width: 20em;
-  height: 15em;
+	width: 100%;
+  height: 270px;
 	overflow:hidden;
 	white-space:nowrap;
 	border:1px solid #FFF;
@@ -185,10 +185,11 @@ main#travel-list ul {
 }
 #slider ul li {
 	position:absolute;
-	width: 480px;
+	width: 360px;
 }
 #slider ul li img {
-	width: 480px;
+	width: 360px;
+  height: 270px;
 }
 #coutry-list {
   display: grid;
