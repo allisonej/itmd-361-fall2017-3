@@ -170,6 +170,26 @@ main#travel-list ul {
 #travel-map {
   max-width: 760px;
 }
+#slider {
+	position:relative;
+	width: 20em;
+  height: 15em;
+	overflow:hidden;
+	white-space:nowrap;
+	border:1px solid #FFF;
+}
+#sliderx ul#imageslider {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#slider ul li {
+	position:absolute;
+	width: 480px;
+}
+#slider ul li img {
+	width: 480px;
+}
 #coutry-list {
   display: grid;
   grid-template-columns: 35% 37% 28%;
